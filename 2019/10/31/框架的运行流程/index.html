@@ -2,9 +2,9 @@
 <html>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
-  <title>博客|chuckiechou</title>
-  <meta name="keywords" content>
-  <meta name="description" content="博客|chuckiechou">
+  <title>框架的运行流程 | 博客|chuckiechou</title>
+  <meta name="keywords" content=" 框架 ">
+  <meta name="description" content="框架的运行流程 | 博客|chuckiechou">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="about me">
 <meta property="og:type" content="website">
@@ -52,7 +52,7 @@
 </div>
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/" class="avatar_target">
     <img class="avatar" src="/img/me.png" />
@@ -185,12 +185,55 @@
         </div>
     </div>
 </aside>
-<div class="post index">
+<div class="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-框架的运行流程" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#My-Blog"><span class="toc-text">My Blog</span></a></li></ol>
+        <h1 class="article-title">框架的运行流程</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            
+                <a href="javascript:" data-rel="PHP">PHP</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="javascript:" class="color3">框架</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+        创建时间:<time class="date" title='更新时间: 2019-10-31 23:22:39'>2019-10-31 23:16</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#入口文件"><span class="toc-text">入口文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#主类"><span class="toc-text">主类</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -203,10 +246,50 @@
     }
 </style>
 </div>
-            <h1 id="My-Blog"><a href="#My-Blog" class="headerlink" title="My Blog"></a>My Blog</h1>
-        </article>
-        
-        
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="入口文件"><a href="#入口文件" class="headerlink" title="入口文件"></a>入口文件</h2><ul>
+<li>定义环境变量,线上，测试，或者本地环境</li>
+<li>引入自动加载类并注册加载方法</li>
+<li>执行主类</li>
+</ul>
+<h2 id="主类"><a href="#主类" class="headerlink" title="主类"></a>主类</h2><ul>
+<li>错误处理，异常捕获</li>
+<li>日志的收集</li>
+<li>请求参数的获取</li>
+<li>请求的分发</li>
+<li>响应的发送</li>
+</ul>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 zzp208@qq.com </span>
+    </div>
+</article>
+
+
+
+<div class="article_copyright">
+    <p><span class="copy-title">文章标题:</span>框架的运行流程</p>
+    
+    <p><span class="copy-title">本文作者:</span><a href="javascript:void(0)" title="chukiechou">chukiechou</a></p>
+    <p><span class="copy-title">发布时间:</span>2019-10-31, 23:16:33</p>
+    <p><span class="copy-title">最后更新:</span>2019-10-31, 23:22:39</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2019/10/31/框架的运行流程/" title="框架的运行流程">https://chuckiechou.github.io/2019/10/31/框架的运行流程/</a>
+    <p>
+        <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+    </p>
+</div>
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">©2017 chukiechou</p>
